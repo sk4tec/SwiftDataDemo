@@ -14,6 +14,6 @@ struct SwiftDataDemoApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: DataItem.self)
+        .modelContainer(for: DataItem.self) // this is the persistent data store
     }
 }

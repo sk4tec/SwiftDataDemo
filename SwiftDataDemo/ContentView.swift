@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var context
+    @Environment(\.modelContext) private var context // the data context
 
     var body: some View {
         VStack {
